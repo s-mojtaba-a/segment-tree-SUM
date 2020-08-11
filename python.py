@@ -34,7 +34,7 @@ class segment_tree:
         else:
             self.add(i,val,2*ind+1,mid+1,end)  # going to the right child
 
-if __name__ == '__main__' :
+if __name__ == '__main__' : # just for a test :)
 
     xxx=segment_tree(10)
 
