@@ -4,7 +4,6 @@ class segment_tree:
     def __init__(self,n):
         self.length=2*n+1
         self.array=[0 for _ in range(2*n+1)] # array is 1-based
-        u=self.length
     
     def sum(self,i,j,ind,start,end) : # gives the sum of elements in array from index i to j 
         ''' it computes sum of elements from index i to j      
