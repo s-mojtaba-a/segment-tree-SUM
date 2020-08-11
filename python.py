@@ -6,8 +6,8 @@ class segment_tree:
         self.array=[0 for _ in range(2*n+1)] # array is 1-based
         u=self.length
     
-    def sum(self,i,j,ind,start,end) : # gives the sum of elements in array
-        ''' it computes sum of elements from index i to j      # from index i to j  
+    def sum(self,i,j,ind,start,end) : # gives the sum of elements in array from index i to j 
+        ''' it computes sum of elements from index i to j      
             ind should be 1
             start should be 1
             end should be the length of array
