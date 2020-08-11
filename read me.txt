@@ -1,0 +1,3 @@
+A segment tree which copmutes sum of elements from index i to index j
+
+This implmenation does NOT contain multiple updating.
